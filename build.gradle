@@ -1,4 +1,7 @@
-apply plugin: 'java'
+plugins {
+    id 'java'
+    id 'info.solidsoft.pitest' version '1.3.0'
+}
 
 group = 'pl.pragmatists'
 version = '0.0.1-SNAPSHOT'
@@ -8,7 +11,9 @@ description = "Legacy Code Exercises"
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-
+pitest {
+    targetClasses = ['pl.pragmatists.legacycode.notests.*']
+}
 
 repositories {
         
