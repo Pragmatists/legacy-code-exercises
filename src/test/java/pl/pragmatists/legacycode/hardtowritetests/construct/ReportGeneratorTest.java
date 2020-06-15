@@ -2,8 +2,8 @@ package pl.pragmatists.legacycode.hardtowritetests.construct;
 
 import java.io.IOException;
 
+import org.junit.jupiter.api.Test;
 import pl.pragmatists.legacycode.hardtowritetests.statical.User;
-import org.junit.Test;
 
 /**
  * TODO:
